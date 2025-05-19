@@ -1,10 +1,24 @@
-# Criação de tabela e leitura de Dados com Pandas
-Este repositório contém dois scripts em Python para manipulação de dados usando a biblioteca `pandas`. O foco é criar uma tabela Excel a partir de uma lista de clientes e, posteriormente, ler esse arquivo para realizar uma análise simples.
+# 📊 Projeto: Manipulação de Dados com Pandas
 
+Este projeto utiliza a biblioteca `pandas` para a criação, manipulação e filtragem de dados de clientes, exportando-os para um arquivo Excel.
 
-## Scripts
+## 🚀 Funcionalidades
 
-### 1. Criar arquivo Excel com dados de clientes
+- Criação de um DataFrame com informações de clientes.
+- Exportação dos dados para um arquivo Excel.
+- Leitura do arquivo Excel e exibição de um conjunto de dados.
+- Filtragem de clientes por país.
 
-Este script cria um arquivo Excel (`clientes.xlsx`) a partir de uma lista de dicionários contendo informações de clientes, incluindo data, ID, país, cidade, nome e sobrenome.
+## 🛠️ Tecnologias Utilizadas
 
+- Python 🐍
+- Pandas 📊
+- Excel 📄
+
+## 📄 Como Executar o Projeto
+
+1. Certifique-se de ter o Python instalado em sua máquina.
+2. Instale as dependências necessárias (caso ainda não tenha `pandas` instalado):
+
+   ```bash
+   pip install pandas
